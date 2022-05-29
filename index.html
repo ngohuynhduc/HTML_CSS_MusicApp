@@ -5,31 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="asset/css/all.min.css">
 </head>
 <body>
     <div class="sidebar">
-        <div class="sidebar__avatar"></div>
-        <div class="sidebar__username"></div>
-        <div class="sidebar__email"></div>
-        <div class="sidebar__browse">
-            <div class="sidebar__home"></div>
-            <div class="sidebar__playlist"></div>
-            <div class="sidebar__artist"></div>
-            <div class="sidebar__albums"></div>
+        <div class="sidebar__avatar">
+            <img src="asset/img/avatar/Image 8.png" alt="user_avatar">
         </div>
-        <div class="sidebar__discover">
-            <div class="sidebar__radio"></div>
-            <div class="sidebar__event"></div>
-            <div class="sidebar__podcast"></div>
-            <div class="sidebar__foryou"></div>
-        </div>
+        <div class="sidebar__username">Ankur Tripathi</div>
+        <div class="sidebar__email"><a href="#">tripathiankur913@gmail.com</a></div>
+        <ul class="sidebar-browse">
+            <div class="sidear-browse__title">Browse</div>
+            <li class="sidebar-browse__home">
+                <i class="fa-solid fa-house-chimney"></i>
+                <p>Home</p>
+            </li>
+            <li class="sidebar-browse__playlist">
+                <i class="fa-solid fa-music"></i>
+                <p>Playlist</p>
+            </li>
+            <li class="sidebar-browse__artist">
+                <i class="fa-solid fa-user"></i>
+                <p>Artist</p>
+            </li>
+            <li class="sidebar-browse__albums">
+                <i class="fa-solid fa-compact-disc"></i>
+                <p>Albums</p>
+            </li>
+        </ul>
+        <ul class="sidebar-discover">
+            <div class="sidebar-discover__title">Discover</div>
+            <li class="sidebar-discover__radio">
+                <i class="fa-solid fa-radio"></i>
+                Radio
+            </li>
+            <li class="sidebar-discover__event">
+                <i class="fa-brands fa-elementor"></i>
+                Event
+            </li>
+            <li class="sidebar-discover__podcast">
+                <i class="fa-solid fa-podcast"></i>
+                Podcast
+            </li>
+            <li class="sidebar-discover__foryou">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                For You
+            </li>
+        </ul>
     </div>
     <div class="container">
         <div class="header">
-            <div class="header__searchbar"></div>
-            <div class="header__premium"></div>
-            <div class="header__setting"></div>
-            <div class="header__notification"></div>
+            <div class="header__searchbar">
+                <input type="text" name="search-bar" placeholder="Search" id="search-bar">
+            </div>
+            <div class="header__premium">
+                <input type="button" value="Upgarade to Premium" id="premium">
+            </div>
+            <div class="header__setting">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="header__notification">
+                <i class="fa-solid fa-bell"></i>
+            </div>
         </div>
         <div class="section">
             <div class="section-top">
@@ -44,7 +82,7 @@
             </div>
         </div>
         <div class="footer">
-            
+            This is footer
         </div>
     </div>
 </body>
