@@ -301,8 +301,15 @@ input.search-bar:focus{
     font-size: 50px;
 }
 .footer__song-info{
-    width: 10%;
+    max-width: 10%;
 }
 .footer__icons > *{
     margin: 0 10px;
+}
+.footer__song-time, .footer__slider{
+    margin: 0 10px;
+}
+.footer__icons{
+    min-width: 116px;
+    display: inline-block;
 }
