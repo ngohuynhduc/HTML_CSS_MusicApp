@@ -16,6 +16,7 @@ body{
     width: 1500px;
     background-image: url("asset/img/NoPath.png");
     background-repeat: no-repeat;
+    background-position: right;
 }
 .sidebar{
     position: relative;
@@ -43,7 +44,7 @@ body{
     text-decoration: none;
 }
 
-.sidebar__title{
+.sidebar-browse__title, .sidebar-discover__title{
     font-size: 20px;
     font-weight: 700;
     margin: 30px auto;
@@ -53,7 +54,7 @@ body{
     padding: 0;
     list-style: none;
 }
-.sidebar__item{
+.sidebar-browse__item, .sidebar-discover__item{
     display: flex;
     margin: 30px 0;
     opacity: 0.5;
