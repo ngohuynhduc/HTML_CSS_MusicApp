@@ -16,8 +16,9 @@ body{
     width: 1500px;
     background-image: url("asset/img/NoPath.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position-x: 20rem;
 }
+
 .sidebar{
     position: relative;
     min-width: 316px;
@@ -59,6 +60,7 @@ body{
     margin: 30px 0;
     opacity: 0.5;
     padding-left: 50px;
+    cursor: pointer;
 }
 .sidebar__item--active{
     opacity: 1;
@@ -114,6 +116,12 @@ input.search-bar:focus{
     border-radius: 15px;
     opacity: 1;
     background-color: transparent;
+    transition: .3s;
+    cursor: pointer;
+}
+.header__premium>input:hover {
+    background-color: #5E77FB;
+    color: white;
 }
 .header__setting, .header__notification{
     align-self: center;
